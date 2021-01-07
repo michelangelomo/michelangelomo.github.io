@@ -1,0 +1,56 @@
+baseURL = "https://morrillo.it/"
+languageCode = "en-us"
+title = "Michelangelo"
+theme = "hugo-ink"
+paginate = 5
+
+copyright = ""
+
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+
+[params]
+	subtitle = "Devops Engineer | Security lover | Go/Elixir developer"
+
+	# Optional 64x64 avatar image.
+	avatar = "https://avatars2.githubusercontent.com/u/3934987?s=460&u=2e23e3a658971cae4d47a3795d1b0d3e6104b70a&v=4"
+
+	featherIconsCDN = true
+
+	mode = "dark" # "dark" or "auto"
+
+# Nav.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/michelangelomo"
+
+[[params.social]]
+name = "Linkedin"
+icon = "linkedin"
+url = "https://linkedin.com/in/michelangelo-mo"
+
+[taxonomies]
+   tag = "tags"
