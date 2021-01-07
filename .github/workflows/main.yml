@@ -21,6 +21,7 @@ jobs:
           personal_token: ${{ secrets.TOKEN }}
           external_repository: michelangelomo/michelangelomo.github.io
           publish_dir: ./public
+          keep_files: true
           user_name: michelangelomo
           user_email: michelangelo@morrillo.it
           publish_branch: master
